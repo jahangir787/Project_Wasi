@@ -1,3 +1,12 @@
+/*
+	Project_Name: Project_Wasi
+	Developer: Jahangir_Hossain, Former CSE_student@PUST, Present Ast.Programmer@BARI
+	Project_Starting_Date: 19th October 2026
+	Description:
+	This software is for writing Bangla in Unicode Fonts. The Keys map just as Avro Phonetic. This program is free to use.
+	This program is designed for Debian operating system. But I hope it will be used for all other derivatives of Debian.
+	This software is named after my beloved son "Ujair Taimur Bin Jahangir Wasi".
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
