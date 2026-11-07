@@ -208,7 +208,9 @@ long int find_bangla_char(int fd) {
         case 'D': bn_char = 0x09a1; break;
         case 'G':
             if (buffer_size >= 2 && buffer[buffer_size-2] == 'N'){
-                bn_char = 0x099e; break;
+                bn_char = 0x099e;
+				tap_key(fd, KEY_BACKSPACE);
+				break;
             } else { bn_char = 'G'; init_buffer(); break; }
         case 'H': bn_char = 0x09cd; break;
         case 'I':
